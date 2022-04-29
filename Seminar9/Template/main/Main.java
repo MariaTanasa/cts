@@ -1,0 +1,17 @@
+package main;
+
+import clase.Tramvai;
+
+public class Main {
+    public static void main(String[] args) {
+        //Ex14
+//        14. Un tramvai circula de fiecare data pe aceeasi linie, astfel el are de parcurs confom unui patern bine stabilit
+//        statiile de pe acea linie: Statia1, Statia2, Statia3, Statia4, Statia5, Statia6 atunci cand merge intr-un sens si invers atunci cand parcurge traseul in sens invers.
+//        Sa se implementeze modului care asigura oprirea in statiile stabilite de catre patern pentru Tramvai.
+
+        Tramvai tramvai=new Tramvai();
+        tramvai.parcurgeSensNormal();
+        tramvai.parcurgeSensInvers();
+
+    }
+}
